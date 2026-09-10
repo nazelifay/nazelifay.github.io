@@ -1551,3 +1551,173 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+# Welcome heading
+--------------------------------------------------------------*/
+.welcome-heading {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.welcome-heading h1 {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+}
+
+/*--------------------------------------------------------------
+# Bio section
+--------------------------------------------------------------*/
+.bio-photo-col {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.bio-photo {
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 18px;
+}
+
+.bio-name {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 4px;
+  color: #151515;
+}
+
+.bio-title {
+  font-weight: 700;
+  color: #555555;
+  margin-bottom: 2px;
+}
+
+.bio-sub {
+  color: #555555;
+  margin-bottom: 2px;
+}
+
+/*--------------------------------------------------------------
+# Teaching section
+--------------------------------------------------------------*/
+.course-card {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #151515;
+  margin-bottom: 30px;
+}
+
+.course-card:hover {
+  color: #BA3C00;
+}
+
+.course-card:hover h3 {
+  color: #BA3C00;
+}
+
+.course-photo-placeholder {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #f5f5f5;
+  border: 1px dashed #cccccc;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #999999;
+  font-size: 13px;
+  padding: 10px;
+  margin-bottom: 12px;
+}
+
+.course-card-photo {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.course-card h3 {
+  font-size: 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  font-family: "Raleway", sans-serif;
+}
+
+.course-meta {
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 2px;
+}
+
+/*--------------------------------------------------------------
+# Teaching course detail pages
+--------------------------------------------------------------*/
+.teaching-breadcrumb {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.teaching-breadcrumb a {
+  color: #BA3C00;
+  text-decoration: none;
+}
+
+.teaching-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.course-detail h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.course-meta-detail {
+  color: #555555;
+  margin-bottom: 6px;
+}
+
+.course-syllabus-link {
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: 600;
+  color: #BA3C00;
+}
+
+/*--------------------------------------------------------------
+# Research section
+--------------------------------------------------------------*/
+.research-item {
+  margin-bottom: 22px;
+}
+
+.research-item p {
+  margin-bottom: 4px;
+}
+
+/*--------------------------------------------------------------
+# CV section
+--------------------------------------------------------------*/
+.cv-button {
+  display: inline-block;
+  padding: 10px 26px;
+  background: #BA3C00;
+  color: #ffffff !important;
+  border-radius: 4px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cv-button:hover {
+  background: #8A2D00;
+  color: #ffffff !important;
+}
