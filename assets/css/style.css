@@ -1613,11 +1613,11 @@ section {
 }
 
 .course-card:hover {
-  color: #BA3C00;
+  color: #103e4a;
 }
 
 .course-card:hover h3 {
-  color: #BA3C00;
+  color: #103e4a;
 }
 
 .course-photo-placeholder {
@@ -1667,7 +1667,7 @@ section {
 }
 
 .teaching-breadcrumb a {
-  color: #BA3C00;
+  color: #103e4a;
   text-decoration: none;
 }
 
@@ -1690,7 +1690,7 @@ section {
   display: inline-block;
   margin-top: 15px;
   font-weight: 600;
-  color: #BA3C00;
+  color: #103e4a;
 }
 
 /*--------------------------------------------------------------
@@ -1710,7 +1710,7 @@ section {
 .cv-button {
   display: inline-block;
   padding: 10px 26px;
-  background: #BA3C00;
+  background: #103e4a;
   color: #ffffff !important;
   border-radius: 4px;
   font-weight: 600;
@@ -1718,6 +1718,6 @@ section {
 }
 
 .cv-button:hover {
-  background: #8A2D00;
+  background: #0b2c35;
   color: #ffffff !important;
 }
